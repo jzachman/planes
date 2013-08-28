@@ -8,79 +8,64 @@
         background-color: #000000;
       }
 
+      #content {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+      }
       p.header {
         color: #ffffff;
         text-transform: uppercase;
         text-align: center;
         margin-top: 80px;
-        width: 700px;
         font-size: 300%;
         border-top-style: double;
         border-color: #ffffff;
         padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
       }
 
       #photos {
         margin-left: auto;
         margin-right: auto;
-        width: 690px;
       }
 
-      #photo1 {
+      div.photo_box {
         margin: 15px;
-        display: inline;
+        display:inline;
       }
 
-      #photo2 {
-
-        margin: 15px;
-        display: inline;}
-
-      #photo3 {
-        margin: 15px;
-        display: inline;
+      img.photo {
+        width: 200px;
+        height: 200px;
       }
 
-      #photo4 {
-        margin: 15px;
-        display: inline;
-      }
-
-      #photo5 {
-        margin: 15px;
-        display: inline;
-      }
-
-      #photo6 {
-        margin: 15px;
-        display: inline;
-      }
     </style>
   </head>
   <body>
-    <div id="logo">
-      <p class="header">I Was Getting On A Plane</p>
-    </div>
-    <div id="photos">
-    <div id="photo1">
-      <img src="img/as_we_begin.jpg" alt="As We Begin" width="200" height="200">
-    </div>
-    <div id="photo2">
-      <img src="img/coming_across.jpg" alt="Coming Across" width="200" height="200">
-    </div>
-    <div id="photo3">
-      <img src="img/delta.jpg" alt="Delta" width="200" height="200">
-    </div>
-    <div id="photo4">
-      <img src="img/descent.jpg" alt="Descent" width="200" height="200">
-    </div>
-    <div id="photo5">
-      <img src="img/his_hands.jpg" alt="His Hands" width="200" height="200">
-    </div>
-    <div id="photo6">
-      <img src="img/how_we_knew.jpg" alt="How We Knew" width="200" height="200">
+    <div id="content">
+      <div id="logo">
+        <p class="header">I Was Getting On A Plane</p>
+      </div>
+      <div id="photos">
+        <div class="photo_box">
+          <img src="img/as_we_begin.jpg" alt="As We Begin" class="photo"/>
+        </div>
+        <div class="photo_box">
+          <img src="img/coming_across.jpg" alt="Coming Across" class="photo"/>
+        </div>
+        <div class="photo_box">
+          <img src="img/delta.jpg" alt="Delta" class="photo"/>
+        </div>
+        <div class="photo_box">
+          <img src="img/descent.jpg" alt="Descent" class="photo"/>
+        </div>
+        <div class="photo_box">
+          <img src="img/his_hands.jpg" alt="His Hands" class="photo"/>
+        </div>
+        <div class="photo_box">
+          <img src="img/how_we_knew.jpg" alt="How We Knew" class="photo"/>
+        </div>
+      </div>
     </div>
   </body>
 </html>
