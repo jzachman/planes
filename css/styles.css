@@ -20,6 +20,7 @@ p.header {
 #photos {
   margin-left: auto;
   margin-right: auto;
+  font-family: sans-serif;
 }
 
 div.photo_box {
